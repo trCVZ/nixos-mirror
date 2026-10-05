@@ -1,0 +1,17 @@
+{
+    "cpu": {
+        "interval": 5,
+        "format": "  {usage}%",
+        "format-warning": "󰀨 {usage}%",
+		"format-critical": "󰀨 {usage}%",
+        "min-length": 8,
+        "max-length": 8,
+        "states" : {
+            "warning": 75,
+            "critical": 90
+        },
+        
+        "on-click": "kitty -e btop",
+        "tooltip":false
+    }
+}

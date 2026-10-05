@@ -1,0 +1,12 @@
+{
+    "custom/nightshift": {
+        "exec": "~/.config/waybar/scripts/toggle_nightshift.sh",
+        "return-type": "json",
+        "interval": 5,
+        "format": "{}",
+        "min-length": 2,
+        "max-length": 2,
+        "on-click": "~/.config/waybar/scripts/toggle_nightshift.sh toggle",
+        "tooltip-format": "Toggle Nightshift"
+    }
+}

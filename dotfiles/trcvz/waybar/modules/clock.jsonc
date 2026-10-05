@@ -1,0 +1,27 @@
+{
+    "clock#time": {
+        "interval": 1,
+        "format": "  {:%H:%M}",
+        "min-length" : 8,
+        "max-length" : 8,
+        "tooltip-format": "{:%H:%M:%S}"
+   },
+
+    "clock#date": {
+        "interval": 60,
+		"format": "󰸗 {:%m-%d}",
+		"min-length": 8,
+		"max-length": 8,
+		"tooltip-format": "{calendar}",
+		"calendar": {
+			"mode": "month",
+			"mode-mon-col": 6,
+			"format": {
+				"months": "<span alpha='100%'><b>{}</b></span>",
+				"days": "<span alpha='90%'>{}</span>",
+				"weekdays": "<span alpha='80%'><i>{}</i></span>",
+				"today": "<span alpha='100%'><b><u>{}</u></b></span>"
+			}
+		}
+    }
+}

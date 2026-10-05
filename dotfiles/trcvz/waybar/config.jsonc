@@ -1,0 +1,72 @@
+{
+
+    ////////////////////
+    // Includes file
+    ////////////////////
+    "include": [
+        "~/.config/waybar/modules/clock.jsonc",
+        "~/.config/waybar/modules/network.jsonc",
+        "~/.config/waybar/modules/bluetooth.jsonc",
+        "~/.config/waybar/modules/temperature.jsonc",
+        "~/.config/waybar/modules/memory.jsonc",
+        "~/.config/waybar/modules/cpu.jsonc",
+        "~/.config/waybar/modules/hyprland.jsonc",
+        "~/.config/waybar/modules/battery.jsonc",
+        "~/.config/waybar/modules/pulseaudio.jsonc",
+        "~/.config/waybar/modules/backlight.jsonc",
+        // Custom
+        "~/.config/waybar/modules/custom/distro.jsonc",
+        "~/.config/waybar/modules/custom/nightshift.jsonc",
+        "~/.config/waybar/modules/custom/dividers.jsonc"
+    ],
+
+
+    ////////////////////
+    // Modules
+    ////////////////////
+	"modules-left": [
+		"custom/distro",
+		"custom/right_div#2",
+		"custom/right_inv#1",
+		"clock#time",
+		"clock#date",
+		"custom/right_div#3",
+		"network",
+		"bluetooth",
+		"custom/right_div#4",
+		"group/pulseaudio",
+		"custom/right_div#1"
+    ],
+    "modules-center": [
+		"custom/left_div#2",
+		"hyprland/workspaces",
+		"custom/right_div#1"
+    ],
+
+    "modules-right": [
+        "tray",
+        "custom/left_div#6",
+		"cpu",
+		"memory",
+		"temperature",
+		"custom/left_div#7",
+		"battery",
+		"custom/left_div#8",
+		"backlight",
+		"custom/left_inv#2",
+        "custom/nightshift"
+    ],
+
+    ////////////////////
+    // General options
+    ////////////////////
+    "mode": "dock",
+    "layer": "top",
+    
+    "height": 0,
+    "width": 0,
+    "margin": 0,
+    "spacing": 0,
+
+    "reload_style_on_change": false
+}

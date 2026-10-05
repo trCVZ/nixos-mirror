@@ -1,0 +1,20 @@
+{
+    "battery": {
+        "interval": 10,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["󰂎", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+],
+        "format-time": "{H} hr {M} min",
+        "min-length":7,
+        "max-length": 7,
+
+        "tooltip":true,
+        "tooltip-format-charging": "Charging: {time}" 
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "temperature": {
+        "interval": 5,
+        "critical-threshold": 85,
+        "on-click": "kitty -e btop",
+        "format": " {temperatureC}°C",
+        "format-critical": " {temperatureC}°C",
+        "min-length":7,
+        "max-length": 7,
+        "tooltip": false
+    }
+}

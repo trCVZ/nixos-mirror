@@ -1,0 +1,15 @@
+{
+	"backlight": {
+		"interval": 2,
+		"format": "{icon} {percent}%",
+		"format-icons": [
+			"", "", "", "", "", "", "", "", ""
+		],
+		"min-length": 7,
+		"max-length": 7,
+		"on-scroll-up": "brightnessctl set +1%",
+		"on-scroll-down": "brightnessctl set 1%-",
+		"tooltip": true,
+        "tooltip-format": "Scroll Up: Increase Brightness\nScroll Down: Decrease Brightness"
+	}
+}
